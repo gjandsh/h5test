@@ -1,0 +1,195 @@
+@import "variables", "mixins", "type", "util";
+.w {
+    width: $site_width + px;
+}
+body {
+    font-family: $font-family;
+    font-size: $normal-font-size;
+}
+.red {
+    padding-left: 12px;
+    background: url("../img/mobile.png") no-repeat left;
+    color: $red-color !important;
+}
+#top {
+    line-height: 30px;
+    a {
+        color: $normal-color;
+        margin: 0 10px;
+    }
+    ul li {
+        float: left;
+    }
+}
+#logo {
+    overflow: hidden;
+    h1 {
+        margin-top: 23px;
+        width: 433px;
+        height: 52px;
+        background-image: url("../img/logo.png");
+    }
+    div.r {
+        margin-top: 26px;
+        input#text {
+            width: 317px;
+            height: 30px;
+            border: 1px solid $red-color;
+        }
+        input#btn {
+            background-color: $red-color;
+            width: 63px;
+            height: 32px;
+            border: 1px solid $red-color;
+            color: $white-color;
+        }
+        ul li {
+            float: left;
+            a {
+                float: left;
+                margin: 4px 5px;
+                color: $normal-color;
+                &:hover {
+                    color: $red-color;
+                }
+            }
+        }
+    }
+}
+#nav {
+    font-size: 14px;
+    ul li {
+        text-align: center;
+        float: left;
+        @include nav-li-width();
+        a {
+            color: $white-color;
+        }
+    }
+    div.r {
+        text-align: center;
+        width: 120px;
+        height: 42px;
+        background-color: #444;
+        a {
+            padding-left: 25px;
+            background: url("../img/shoppingcar.png") no-repeat left;
+            color: $white-color;
+        }
+        span {
+            display: inline-block;
+            color: $white-color;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            line-height: 20px;
+            background-color: $red-color;
+        }
+    }
+}
+#content {
+    div.l {
+        ul.big li {
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            height: 46px;
+            line-height: 46px;
+            border-bottom: 1px solid #eaeaea;
+            a {
+                color: $normal-color;
+            }
+        }
+        ul.detail li {
+            font-size: $normal-font-size;
+            border: none;
+            margin: 15px 0;
+            height: 12px;
+            line-height: 12px;
+            font-weight: normal;
+            a {
+                color: $normal-color;
+                &:hover {
+                    color: $red-color;
+                }
+            }
+        }
+    }
+    div.r {
+        div.title {
+            border: none;
+            text-indent: 40px;
+            line-height: 56px;
+            font-size: 18px;
+            font-weight: bold;
+            color: $normal-color;
+            border-bottom: 1px solid #eaeaea;
+        }
+        div.content {
+            padding-left: 40px;
+        }
+        p {
+            a {
+                text-decoration: underline;
+            }
+        }
+        p.title {
+            margin: 30px 0;
+            font-size: 23px;
+        }
+        p.question {
+            margin: 25px 0 15px;
+            font-size: 16px;
+        }
+        p.answer {
+            margin: 10px 0;
+        }
+    }
+}
+#footer {
+    div.w {
+        overflow: hidden;
+        height: 353px;
+        background: url("../img/footer.png") no-repeat top;
+        div.content {
+            padding-top: 40px;
+            margin-top: 124px;
+            width: $site_width;
+            height: 188px;
+            border-top: 1px solid #eaeaea;
+            .detail {
+                padding-left: 15px;
+                width: 108px;
+                float: left;
+                height: 128px;
+                border-right: 1px solid #eaeaea;
+                p {
+                    font-size: 17px;
+                    margin-bottom: 15px;
+                }
+                li a {
+                    line-height: 24px;
+                    color: $normal-color;
+                }
+            }
+            div.detail {
+                padding: 0;
+                width: 234px;
+                background: url("../img/bottom_1.png");
+            }
+            div.r {
+                width: 236px;
+                height: 128px;
+                background: url("../img/bottom_2.png");
+            }
+        }
+    }
+}
+#bottom {
+    p {
+        line-height: 26px;
+    }
+    img {
+        margin-top: 5px;
+    }
+}

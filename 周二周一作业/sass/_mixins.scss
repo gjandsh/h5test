@@ -1,0 +1,6 @@
+// set value style
+@import "variables";
+
+@mixin nav-li-width($count:8) {
+    width: ($site-width - 200) / $count + px;
+}

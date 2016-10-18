@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, dl {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.l {
+  float: left;
+}
+
+.r {
+  float: right;
+}
+
+.w {
+  margin: 0 auto;
+}
+
+#top {
+  height: 30px;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ededee;
+}
+
+#logo {
+  height: 100px;
+}
+
+#nav {
+  height: 42px;
+  background-color: #222;
+  line-height: 42px;
+}
+
+#content {
+  overflow: hidden;
+  margin-top: 40px;
+}
+#content div {
+  border: 1px solid #eaeaea;
+}
+#content div.l {
+  width: 178px;
+}
+#content div.r {
+  width: 888px;
+}
+
+#footer {
+  height: 353px;
+  margin-top: 80px;
+  border-top: 1px solid #eaeaea;
+}
+
+#bottom {
+  padding-top: 20px;
+  text-align: center;
+  height: 107px;
+  background-color: #333;
+  color: #c2c2c2;
+}
+
+.no-border-bottom {
+  border-bottom: none !important;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #eaeaea !important;
+}
+
+.no-border {
+  border: none !important;
+}
+
+.w {
+  width: 1090px;
+}
+
+body {
+  font-family: microsoft yahei;
+  font-size: 12px;
+}
+
+.red {
+  padding-left: 12px;
+  background: url("../img/mobile.png") no-repeat left;
+  color: #d22147 !important;
+}
+
+#top {
+  line-height: 30px;
+}
+#top a {
+  color: #333333;
+  margin: 0 10px;
+}
+#top ul li {
+  float: left;
+}
+
+#logo {
+  overflow: hidden;
+}
+#logo h1 {
+  margin-top: 23px;
+  width: 433px;
+  height: 52px;
+  background-image: url("../img/logo.png");
+}
+#logo div.r {
+  margin-top: 26px;
+}
+#logo div.r input#text {
+  width: 317px;
+  height: 30px;
+  border: 1px solid #d22147;
+}
+#logo div.r input#btn {
+  background-color: #d22147;
+  width: 63px;
+  height: 32px;
+  border: 1px solid #d22147;
+  color: #ffffff;
+}
+#logo div.r ul li {
+  float: left;
+}
+#logo div.r ul li a {
+  float: left;
+  margin: 4px 5px;
+  color: #333333;
+}
+#logo div.r ul li a:hover {
+  color: #d22147;
+}
+
+#nav {
+  font-size: 14px;
+}
+#nav ul li {
+  text-align: center;
+  float: left;
+  width: 111.25px;
+}
+#nav ul li a {
+  color: #ffffff;
+}
+#nav div.r {
+  text-align: center;
+  width: 120px;
+  height: 42px;
+  background-color: #444;
+}
+#nav div.r a {
+  padding-left: 25px;
+  background: url("../img/shoppingcar.png") no-repeat left;
+  color: #ffffff;
+}
+#nav div.r span {
+  display: inline-block;
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  line-height: 20px;
+  background-color: #d22147;
+}
+
+#content div.l ul.big li {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  height: 46px;
+  line-height: 46px;
+  border-bottom: 1px solid #eaeaea;
+}
+#content div.l ul.big li a {
+  color: #333333;
+}
+#content div.l ul.detail li {
+  font-size: 12px;
+  border: none;
+  margin: 15px 0;
+  height: 12px;
+  line-height: 12px;
+  font-weight: normal;
+}
+#content div.l ul.detail li a {
+  color: #333333;
+}
+#content div.l ul.detail li a:hover {
+  color: #d22147;
+}
+#content div.r div.title {
+  border: none;
+  text-indent: 40px;
+  line-height: 56px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  border-bottom: 1px solid #eaeaea;
+}
+#content div.r div.content {
+  padding-left: 40px;
+}
+#content div.r p a {
+  text-decoration: underline;
+}
+#content div.r p.title {
+  margin: 30px 0;
+  font-size: 23px;
+}
+#content div.r p.question {
+  margin: 25px 0 15px;
+  font-size: 16px;
+}
+#content div.r p.answer {
+  margin: 10px 0;
+}
+
+#footer div.w {
+  overflow: hidden;
+  height: 353px;
+  background: url("../img/footer.png") no-repeat top;
+}
+#footer div.w div.content {
+  padding-top: 40px;
+  margin-top: 124px;
+  width: 1090;
+  height: 188px;
+  border-top: 1px solid #eaeaea;
+}
+#footer div.w div.content .detail {
+  padding-left: 15px;
+  width: 108px;
+  float: left;
+  height: 128px;
+  border-right: 1px solid #eaeaea;
+}
+#footer div.w div.content .detail p {
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+#footer div.w div.content .detail li a {
+  line-height: 24px;
+  color: #333333;
+}
+#footer div.w div.content div.detail {
+  padding: 0;
+  width: 234px;
+  background: url("../img/bottom_1.png");
+}
+#footer div.w div.content div.r {
+  width: 236px;
+  height: 128px;
+  background: url("../img/bottom_2.png");
+}
+
+#bottom p {
+  line-height: 26px;
+}
+#bottom img {
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=main.css.map */

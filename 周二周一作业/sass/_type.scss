@@ -1,0 +1,18 @@
+// tag style
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, dl {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
